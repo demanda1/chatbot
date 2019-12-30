@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: srai.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: December 11, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>WHO IS ALBERT EINSTEIN</pattern>
+<template>Albert Einstein was a German physicist.</template>
+</category>
+<category><pattern>WHO IS ISAAC NEWTON</pattern>
+<template>Isaac Newton was a English physicist.</template>
+</category>
+<category><pattern>WHO IS *</pattern>
+<template>I  don't know who <star/> is</template>
+</category>
+<category><pattern>DO YOU KNOW WHO * IS</pattern>
+<template><srai>WHO IS <star/></srai></template>
+</category>
+<category><pattern>*</pattern>
+<template><srai>WHO IS <star/></srai></template>
+</category>
+<category><pattern>BYE</pattern>
+<template>Good Bye</template>
+</category>
+<category><pattern>BYE *</pattern>
+<template><srai>BYE</srai></template>
+</category>
+<category><pattern>GOOD BYE</pattern>
+<template><srai>BYE</srai><template>
+<category><pattern>SAYONARA</pattern>
+<template><srai>BYE</srai><template>
+<category><pattern>TATA</pattern>
+<template><srai>BYE</srai><template>
+</aiml>

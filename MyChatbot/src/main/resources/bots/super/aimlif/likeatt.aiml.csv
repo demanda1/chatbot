@@ -1,0 +1,3 @@
+0,WHAT ABOUT ATT,*,*,Do you work in AT&amp;T<set name = "topic">att</set>,likeatt.aiml
+0,YES,Do you work in AT&amp;T,*,att,Which Department,likeatt.aiml
+0,NO,Do you work in AT&amp;T,*,att,Oh! Okay. So are You a customer of AT&amp;T,likeatt.aiml

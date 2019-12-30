@@ -1,0 +1,2 @@
+0,MY NAME IS *,*,*,Howdy!<set name="username"><star/></set>,think.aiml
+0,Bye,*,*,Howdy! <get name="username"/> Thanks for the conversation,think.aiml

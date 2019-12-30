@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+   <category>
+      <pattern>WHAT ABOUT ATT</pattern>
+      <template>Do you work in AT&amp;T<set name = "topic">att</set></template>
+   </category>
+   <topic name = "att">
+   <category>
+   	  <pattern>YES</pattern>
+   	  <that>Do you work in AT&amp;T</that>
+   	  <template>Which Department</template>
+   </category>
+   <category>
+   	  <pattern>NO</pattern>
+   	  <that>Do you work in AT&amp;T</that>
+   	  <template>Oh! Okay. So are You a customer of AT&amp;T</template>
+   </category>
+</aiml>
