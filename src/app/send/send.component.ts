@@ -19,7 +19,7 @@ mychat=" ";
       (<HTMLElement>document.getElementById("cb")).hidden=false;
       (<HTMLElement>document.getElementById("min")).hidden=false;
       this.message="hello";
-      this.url="http://localhost:8010/send/"+this.message;
+      this.url="https://springcb.herokuapp.com//send/"+this.message;
       fetch(this.url,{
         method:"GET",
         headers:{
@@ -45,7 +45,7 @@ mychat=" ";
     console.log(this.message);
     let tr1="<tr style='text-align:right;'><td>&nbsp;&nbsp;&nbsp;</td><td class='shadow-sm rounded' style='background-color:rgb(138, 216, 138); border-radius:10px'>"+"&emsp;"+this.message+"&emsp;"+"</td></tr>";
     (<HTMLOutputElement>document.getElementById("tab")).innerHTML=tr1;
-    this.url="http://localhost:8010/send/"+this.message;
+    this.url="https://springcb.herokuapp.com/send/"+this.message;
     fetch(this.url,{
       method:"GET",
       headers:{
