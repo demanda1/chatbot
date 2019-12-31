@@ -25,3 +25,7 @@ i:hover {
     bottom: 0px;
     right:10px; 
 } 
+
+img {
+    border-radius: 50px;
+}
